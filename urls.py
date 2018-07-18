@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.urls import path
 from . import views
-
+#アプリ選択
 urlpatterns = [
     path('',views.index,name='index'),
     path('create',views.create,name='create'),
